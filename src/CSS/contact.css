@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    overflow-x: hidden;
+}
+header {
+    background:linear-gradient( 135deg, #4B2E2A, #f5f5dc);
+    padding: 30px 15% 5% 15%;
+    height: 180px;
+    overflow-y: hidden;
+}
+header p {
+    font-size: 16px;
+    padding-left: 150px;
+    justify-content: center;
+    color:#E0E0E0;
+}
+header h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #FFFFFF  ;
+    padding: 0 0 40px 0;
+}
+.box {
+    color: #DAA520;
+}
+nav ul {
+    display: flex;
+    gap: 10px;
+}
+nav button a{
+    color: white;
+}
+nav button {
+    background-color:#6f4f37 ;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+nav button:hover {
+    background-color: #daa520;
+}
+.contacts{
+    background-color:#daa520;
+    color: white;
+}
+input[type="text"], input[type="email"], input[type="url"], textarea {
+    width: 100%; 
+    max-width: 600px; 
+}
+section{
+    background-color: #593f39;
+    color:#CCCCCC ;
+    padding:18px 20% 18px 20% ;
+    display: flex;
+    gap: 100px;
+}
+section h2{
+    color:#D3D3D3;
+    margin-bottom:20px;
+}
+.firstMessage ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.secondMessage h2{
+    margin-top: 15px;
+}
+.secondMessage dl { 
+    margin-bottom: 20px; 
+    } 
+.secondMessage dt, .secondMessage dd { 
+    margin-bottom: 10px; 
+}
+.leftContent{
+    width:60%;
+}
+.rightContent{
+    width:40%;
+}
+button{
+    padding: 5px;
+}
+.Outer-Wrapper{
+    background-color: #4B2E2A;
+    padding:18px 20% 18px 20% ;
+    display: flex;
+}
+.Outer-Wrapper h2{
+    color: white;
+    font-weight:400;
+    margin-bottom:11px;
+    justify-content: space-between;
+} 
+/* Gallery Styel */
+.ImageGallery{
+    width: 25%;
+    margin-right:30px;
+}
+.images{
+    display: flex;
+}
+.image{
+    width: 33.3%;
+    border: 4px solid transparent;
+}
+.image img{
+    width: 100%;
+    height: 60px;
+}
+/* About Style */
+.About{
+    width:50%;
+    margin-right: 30px;
+    color: rgb(194, 180, 180);
+    font-weight: 200;
+}
+.description{
+    width:100%;
+    margin-right:20px; 
+    overflow:hidden;
+}
+.description img {
+    float: left;
+    margin-right: 10px;
+    width: 80px;
+    height: 80px;
+    border: 2px solid transparent;
+}
+.description p{
+    text-align: justify;
+}
+.description p a{
+    color: #DAA520;
+}
+/* contact Style */
+.contact{
+        width: 25%;
+    }
+.contact p{
+    color: rgb(194, 180, 180);
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.contact p a {
+    color: #DAA520;
+}
+.contact .span{
+    color: white;
+}
+.inner-Wrapper{
+    background-color: #5d433c;
+    padding:18px 20% 18px 20% ;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.inner-Wrapper p{
+    color: rgb(194, 180, 180);;
+
+}
+.inner-Wrapper p a{
+    color: #DAA520;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    margin-right: 15px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar a:hover {
+    color:#DAA520 ;
+}
+nav button:active {
+    color: #DAA520;
+}
+
+
+
+
+
+
